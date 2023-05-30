@@ -1,13 +1,6 @@
 package javaapplication28;
 
-import java.awt.BorderLayout;
-import java.awt.EventQueue;
 import java.sql.*;
-import javax.swing.JFrame;
-import javax.swing.JPanel;
-import javax.swing.border.EmptyBorder;
-import com.toedter.calendar.JDateChooser;
-import java.text.SimpleDateFormat;
 import java.util.Date;
 import javax.swing.JOptionPane;
 
@@ -202,6 +195,7 @@ Connection con;
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
+            @Override
             public void run() {
                 new Takviminterface().setVisible(true);
             }
