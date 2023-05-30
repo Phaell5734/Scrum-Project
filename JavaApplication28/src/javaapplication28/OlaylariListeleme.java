@@ -11,20 +11,13 @@ import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JTable;
 import javax.swing.table.DefaultTableModel;
-import java.awt.*;
-import java.awt.event.*;
-import javax.swing.*;
-import javax.swing.table.*;
-import java.sql.*;
 import java.time.*;
 import java.time.format.*;
-import java.util.TimerTask;
+
 
 public class OlaylariListeleme extends javax.swing.JFrame {
 Connection con;
 private JFrame frame;
-    private Hatirlatma hatirlatma;
-
     /**
      * Creates new form NewJFrame
      */
